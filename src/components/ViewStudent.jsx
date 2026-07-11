@@ -1,13 +1,15 @@
 import React from 'react'
 import NavigationBar from './NavigationBar'
 
-export const DeleteStudent = () => {
+const ViewStudent = () => {
   return (
     <div>
         <NavigationBar />
         <h1>
-            DeleteStudent
+            View Student
         </h1>
     </div>
   )
 }
+
+export default ViewStudent
